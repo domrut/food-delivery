@@ -1,0 +1,147 @@
+.BackgroundImg {
+    background-image: url('../../assets/images/Background_Image-min.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+    background-size: 100vw;
+	height: 600px;
+    width: 100%;
+    opacity: 100%;
+    position: relative;
+    box-shadow: 0px 8px 19px 0px rgba(0,0,0,0.5);
+
+}
+
+.BackgroundImgText {
+    margin-top: 13vh;
+    margin-left: 16vh;
+    font-family: 'Monsterrat', sans-serif;
+    color: white;
+    display: inline-block;
+    width: 40vw;
+    height: 30vh;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 1);
+}
+
+.BackgroundImgH1 {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2vw;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    border: 6px solid white;
+    padding-left: 2vw;
+    padding-bottom: 1.8vw;
+    border-top: none;
+    font-size: 2.7vw;
+    padding-top: 1.5vh;
+    border-radius: 8px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    box-sizing: border-box;
+    box-shadow: 0px 23px 19px -2px rgba(0,0,0,0.5);
+}
+
+.BackgroundImgH1 span {
+    display: block;
+    letter-spacing: 2.25vw;
+    padding-top: 1vw;
+}
+
+.BackgroundImgSpan {
+    display: block;
+    font-size: 2.2vw;
+    word-spacing: 0.5vw;
+    border: 6px solid white;
+    padding-left: 2vw;
+    padding-top: 2vw;
+    padding-right: 2vw;
+    border-bottom: none;
+    text-align: center;
+    border-radius: 8px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    box-sizing: border-box;
+}
+
+
+.BackgroundImgSpan span {
+    display: block;
+    word-spacing: 1.8vw;
+    padding-bottom: 1.5vh;
+}
+
+@media screen and (max-width: 1200px) {
+    .BackgroundImg {
+        height: 420px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .BackgroundImgText {
+        margin-top: 12vh;
+        margin-left: 10vh;
+    }
+    
+    .BackgroundImg {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .BackgroundImgText {
+        margin-top: 9vh;
+        margin-left: 8vh;
+    }
+    
+    .BackgroundImg {
+        height: 230px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .BackgroundImgText {
+        margin-top: 4vh;
+        margin-left: 8vh;
+    }
+    
+    .BackgroundImg {
+        height: 300px;
+    }
+
+    .BackgroundImgH1 {
+        font-size: 4vw;
+        letter-spacing: 1vw;
+    }
+
+    .BackgroundImgH1 span {
+        letter-spacing: 1.2vw;
+    }
+
+    .BackgroundImgSpan {
+        font-size: 4vw;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .BackgroundImgText {
+        margin-top: 9vh;
+        margin-left: 8vh;
+    }
+    
+    .BackgroundImg {
+        height: 30vh;
+    }
+
+    .BackgroundImgText {
+        margin-top: 2vh;
+        margin-left: 5vh;
+    }
+
+    .BackgroundImgSpan {
+        word-spacing: normal;
+    }
+
+    .BackgroundImgSpan span {
+        word-spacing: normal;
+    }
+}

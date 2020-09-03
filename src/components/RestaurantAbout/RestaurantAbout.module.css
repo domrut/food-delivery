@@ -1,0 +1,40 @@
+.RestaurantsAboutHidden {
+    display: none;
+    overflow: hidden;
+}
+
+.RestaurantsAbout1Shown {
+    font-family: "Roboto", sans-serif;
+    font-size: .9rem;
+    padding: 0 18px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto 100px;
+}
+
+.Accordion {
+    background-color: #f9f9f9;
+    color: black;
+    cursor: pointer;
+    margin: auto 100px;
+    text-align: left;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    display: inline-block;
+    font-size: 1.5rem;
+}
+  
+.MapLink:hover {
+    text-decoration: none;
+}
+
+.RestaurantAboutHeaders h5 {
+    display: block;
+    margin: 20px auto;
+}
+
+@media screen and (max-width: 999px) {
+    .Accordion {
+        margin: auto;
+    }
+}

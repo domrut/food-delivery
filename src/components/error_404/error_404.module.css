@@ -1,0 +1,40 @@
+.NotFoundError {
+    font-family: 'Raleway' sans-serif;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+.NotFoundError h1 {
+    font-size: 8vw;
+}
+
+.NotFoundError h2 {
+    font-size: 3vw;
+}
+
+.BackButton {
+    background-color: #DD007F;
+    color: white;
+	border-radius: 28px;
+	border: 1px solid #DD007F;
+	display: inline-block;
+	cursor: pointer;
+    text-decoration: none;
+    margin-top: 30px;
+    font-size: 2.2vw;
+    text-shadow: 0px 1px 0px black;
+    padding: 12px 40px;
+    transition: background-color 0.1s ease-in-out;
+}
+
+.BackButton:hover {
+    background-color: rgba(196, 39, 128, 0.8);
+}
+
+@media screen and (min-width: 1050px) {
+    .BackButton {
+        font-size: 1.7vw;
+    }
+}

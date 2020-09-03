@@ -1,0 +1,113 @@
+.Restaurant {
+    width: 350px;
+    height: 300px;
+    font-size: calc( .8rem + .2 * (100vw - 20rem) / 80);
+}
+
+.ImageDiv {
+    overflow: hidden;
+}
+
+.Image {
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    height: 230px;
+    object-fit: cover;
+    transform: scale(1);
+    transition: .3s ease-in-out;
+}
+
+.Restaurant:hover .Image {
+    transform: scale(1.05);
+}
+
+.RestaurantHeader {
+    margin: 15px;
+    position: absolute;
+    z-index: 1;
+    font-size: calc( .8rem + .2 * (100vw - 20rem) / 25);
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 1);
+}
+
+.RestaurantHR {
+    border: 0;
+    height: 0;
+    margin: 4px 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    opacity: 0.4;
+}
+
+.Restaurant p {
+    padding-top: 10px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    font-size: 16px;
+}
+
+.Restaurant p span:first-child {
+    color: red;
+    padding-right: 5px;
+    margin-left: auto;
+}
+
+.Icon {
+    background: url('../../assets/svg/delivery.svg') no-repeat;
+    background-size: calc( .8rem + .2 * (100vw - 20rem) / 30);
+    width: 40px;
+    padding-left: 5px;
+}
+
+@media screen and (max-width: 1367px) {
+    .Restaurant {
+        width: 35vw;
+    }
+}
+
+@media screen and (max-width: 1367px) {
+    .Restaurant {
+        width: 35vw;
+    }
+}
+
+@media screen and (max-width: 1168px) {
+    .Restaurant {
+        width: 35vw;
+        height: 250px;
+    }
+
+    .RestaurantHeader {
+        font-size: calc( .8rem + .2 * (100vw - 20rem) / 15);
+    }
+    
+    .Image {
+        height: 190px;
+    }
+
+    .Icon {
+        background-size: calc( 1rem + .2 * (100vw - 20rem) / 20);
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .Restaurant {
+        width: 65vw;
+        height: 280px;
+    }
+
+    .RestaurantHeader {
+        font-size: calc( .8rem + .2 * (100vw - 20rem) / 5);
+    }
+
+    .Restaurant p {
+        font-size: 15px;
+        padding-top: 5px;
+    }
+
+    .Image {
+        height: 230px;
+    }
+}

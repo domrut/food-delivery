@@ -1,0 +1,57 @@
+.CheckoutContainer {
+    margin: 3% 20% 0 22%;
+    font-family: "Montserrat", sans-serif;
+    border: 1px solid #333333;
+    padding: 80px;
+    box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.25);
+    min-height: 250px;
+}
+
+.CartHeader {
+    margin: 100px 20% 50px 20%;
+    font-family: "Raleway", sans-serif;
+    font-weight: 900;
+}
+
+.CartHeaderEmpty {
+    text-align: center;
+}
+
+.CartItem {
+    margin: 20px auto;
+    font-size: 1.2rem;
+}
+
+.CartItemName {
+    margin-right: 6px;
+}
+
+.CartPrice {
+    margin-top: 5%;
+    font-size: 2rem;
+}
+
+.CartButton {
+    padding: 12px;
+    text-align: center;
+    width: 150px;
+    border: 1px solid #333333;
+    box-shadow: 0px 10px 18px 0px rgba(0,0,0,0.1);
+    background-color: #f9f9f9;
+    transition: all .3s ease-in-out;
+}
+
+.CartButton:hover {
+    background-color: #333333;
+    color: #f9f9f9;
+}
+
+@media screen and (max-width: 700px) {
+    .CartPrice {
+        font-size: 1.8rem;
+    }
+    .CheckoutContainer {
+        text-align: center;
+        margin: 5% 15% 0 22%;
+    }
+}

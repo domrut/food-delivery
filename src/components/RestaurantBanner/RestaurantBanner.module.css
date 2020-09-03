@@ -1,0 +1,46 @@
+.BannerText {
+    color: white;
+    z-index: 1;
+    position: sticky;
+    top: 350px;
+    left: 350px;
+    display: inline;
+    font-size: 90px;
+    text-shadow: 5px 3px 4px rgba(0, 0, 0, 1);
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    letter-spacing: 5px;
+}
+
+.Banneris {
+    min-height: 500px;
+    background-color:rgba(211, 211, 211, 0.6);
+    background-attachment: fixed;
+    background-position: 0% 150%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 1350px) {
+    .BannerText {
+        left: 150px;
+    }
+}
+
+
+@media screen and (max-height: 800px) {
+    .Banneris {
+        min-height: 400px;
+        background-position: 0% 75%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Banneris {
+        background-position: center;
+    }
+
+    .BannerText {
+        left: 50px;
+    }
+}
